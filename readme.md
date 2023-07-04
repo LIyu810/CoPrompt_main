@@ -1,6 +1,6 @@
 # CoPrompt
 
-CoPrompt is a contrast-prompt tuning method specifically designed for Chinese dialogue character relationship extraction. This repository contains the source code and datasets utilized in our paper, "CoPrompt: A Contrast-prompt Tuning Method for Chinese Dialogue Character Relationship Extraction."
+CoPrompt is a contrast-prompt tuning method specifically designed for Multiparty dialogue character relationship extraction. This repository contains the source code and datasets utilized in our paper, "CoPrompt: A Contrast-prompt Tuning Method for Chinese Dialogue Character Relationship Extraction."
 
 ## Requirements
 
@@ -49,41 +49,3 @@ If you have any questions or need further clarification, please do not hesitate 
 
 
 
-
-
-
-
-
-[comment]: <> (### CoPrompt)
-
-[comment]: <> (Code and datasets for paper CoPrompt: A Contrast-prompt Tuning Method for Chinese Dialogue Character Relationship Extraction)
-
-[comment]: <> (### Requirements)
-
-[comment]: <> (```)
-
-[comment]: <> (pip install -r requirements.txt)
-
-[comment]: <> (```)
-
-[comment]: <> (### Run the experiments)
-
-[comment]: <> (#### 1.Use the comand below to get the answer words to use in the training.)
-
-[comment]: <> (```)
-
-[comment]: <> (python get_label_word.py)
-
-[comment]: <> (```)
-
-[comment]: <> (#### 2.Let's run)
-
-[comment]: <> (```)
-
-[comment]: <> (>> bash scripts/dialogue.sh)
-
-[comment]: <> (```)
-
-[comment]: <> (### Acknowledgement)
-
-[comment]: <> (Part of our code is borrowed from code of KnowPrompt: Knowledge-aware Prompt-tuning with Synergistic Optimization for Relation Extraction, many thanks.)
